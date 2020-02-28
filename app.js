@@ -7,11 +7,7 @@ const express = require('express'),
     bodyParser = require('body-parser'),
     routes = require('./api/routes');
 const errorLog = require('./api/utils/ErrorLogger');
-// const sucessLog = require('./utils/errorLogger.js');
-
-// config = require('./api/config/Config'),
 app = express();
-// app.set('secret', config.SECRET);
 
 app.use(logger(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 app.use(

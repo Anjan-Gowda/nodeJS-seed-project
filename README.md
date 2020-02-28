@@ -9,7 +9,7 @@
 ## How to run?
 
 1. Clone the repo.
-2. npm install
+2. npm install and npm i mongodb
 3. npm start
 
 &#9400;ABC

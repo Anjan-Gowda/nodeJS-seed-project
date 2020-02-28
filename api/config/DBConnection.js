@@ -1,6 +1,5 @@
 const mongoose = require('mongoose'),
-    config = require('../config/Config'),
-    dburl = config.MONGO_URI;
+    config = require('../config/Config');
 
 // CAPTURE APP TERMINATION / RESTART EVENTS
 // To be called when process is restarted or terminated
