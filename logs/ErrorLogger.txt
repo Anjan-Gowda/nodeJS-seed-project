@@ -1,0 +1,12 @@
+Fri Feb 28 2020 10:37:03 GMT+0530 (India Standard Time) - POST: /api/product/createProduct 
+ - SyntaxError: Unexpected token p in JSON at position 9
+    at JSON.parse (<anonymous>)
+    at parse (/Users/anjan.bc/projects/Node/seed-project/node_modules/body-parser/lib/types/json.js:89:19)
+    at /Users/anjan.bc/projects/Node/seed-project/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/Users/anjan.bc/projects/Node/seed-project/node_modules/raw-body/index.js:224:16)
+    at done (/Users/anjan.bc/projects/Node/seed-project/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Users/anjan.bc/projects/Node/seed-project/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:215:7)
+    at endReadableNT (_stream_readable.js:1200:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
